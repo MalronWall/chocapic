@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block stylesheets %}{% endblock %}
+
+{% block body %}
+    {% form_theme form 'forms/add_account_form.html.twig' %}
+    {{ form(form) }}
+{% endblock %}
+
+{% block javascripts %}{% endblock %}

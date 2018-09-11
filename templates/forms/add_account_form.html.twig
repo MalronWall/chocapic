@@ -1,0 +1,9 @@
+{% block form %}
+
+{# {{ dump(form) }} #}
+
+{{ form_start(form) }}
+    {{ form_row(form.firstname) }}
+    <input type="submit">
+{{ form_end(form) }}
+{% endblock %}
